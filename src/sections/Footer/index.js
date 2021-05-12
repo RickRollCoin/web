@@ -25,21 +25,16 @@ const Footer = () => {
               <Box className="footer-widgets company-desc">
                 <Image src={cryptikFooterLogo} alt="cryptik footer logo" />
                 <Text>
-                  Attention in when in just something bread not hundred well,
-                  muff value emerge on the known officers.
+                  If you have any questions fell free to ask.
+                  Just remember it could take us some time to responde you.
+                  Rick roll coin will never give you up.
                 </Text>
 
                 <Box className="contact-info">
                   <Link href="#">
                     <a>
                       {" "}
-                      <FaPhoneAlt /> contact@cryptik.com{" "}
-                    </a>
-                  </Link>
-                  <Link href="#">
-                    <a>
-                      {" "}
-                      <FaEnvelope /> +88 12345 697858{" "}
+                      <FaEnvelope /> info@rickrolltoken.com{" "}
                     </a>
                   </Link>
                 </Box>
@@ -139,11 +134,11 @@ const Footer = () => {
               </Box>
 
               <Box className="copyright-text">
-                <Text>&copy; Cryptik | All right rserved 2020</Text>
+                <Text>&copy; RickRollToken | All right rserved 2021</Text>
                 <Text as="span">
                   Designed By{" "}
-                  <Link href="#">
-                    <a>Devscorn</a>
+                  <Link href="https://www.linkedin.com/in/kacper-w-a188b5115/">
+                    <a>Kacper Werema</a>
                   </Link>
                 </Text>
               </Box>
