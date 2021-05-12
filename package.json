@@ -5,7 +5,7 @@
   "scripts": {
     "dev": "next dev",
     "start": "next start",
-    "now-build": "next build && next export -o dist",
+    "build": "next build && next export -o dist",
     "firebase-dev": "npm run dev:client & npm run dev:server",
     "firebase-dev:client": "next src/client",
     "firebase-dev:server": "babel src/server --out-dir dist/server --source-maps --watch",
