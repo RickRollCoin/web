@@ -23,9 +23,8 @@ const Awards = () => {
                     <Heading as="h1">Largest Achievements</Heading>
                   </SectionBackground>
                   <Text>
-                    Attention in when in just something bread not hundred well,
-                    muff value emerge on the known officers. A parameters phase
-                    orthographic the can differentiates far catch.
+                    No one knows how many people got rick rolled,
+                    but it could be over 400.000.000.
                   </Text>
                 </SectionTitle>
               </Box>
