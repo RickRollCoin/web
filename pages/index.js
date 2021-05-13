@@ -23,8 +23,8 @@ const Home = () => {
   return (
     <ThemeProvider theme={theme}>
       <Head>
-      <title>Rick Roll Coin | He will never give you up</title>
-        <meta name="Description" content="Rick Roll Coin" />
+      <title>Rick Roll Token | He will never give you up</title>
+        <meta name="Description" content="Rick Roll Token" />
         <meta name="theme-color" content="#280D57" />
         <link rel="shortcut icon" type="image/x-icon" href={FavIcon} />
       </Head>
@@ -36,10 +36,10 @@ const Home = () => {
       <CoinFund />
       <About />
       <Awards />
-      <UserMap />
       <Wallet />
       <Statistics />
-       <Faq />
+      <UserMap />
+      <Faq />
       <Stack />
       <Footer />
     </ThemeProvider>

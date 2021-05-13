@@ -1,6 +1,10 @@
 import styled from "styled-components";
 
 const StatisticsSectionWrapper = styled.div`
+  .token-distribution{
+    min-heigth: 150px;
+  }
+
   .statistics-wrapper {
     padding: 85px 0;
 

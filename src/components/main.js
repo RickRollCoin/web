@@ -4,14 +4,14 @@ import FavIcon from "assets/images/fav-icon.png";
 
 const Main = ({
   children,
-  title = "Rick Roll Coin | The coin that is never gonna give you up",
+  title = "Rick Roll Token | The token that is never gonna give you up",
 }) => {
   return (
     <React.Fragment>
       <Head>
         <title>{title}</title>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <meta name="Description" content="Rick Roll Coin" />
+        <meta name="Description" content="Rick Roll Token" />
         <meta name="theme-color" content="#ec5555" />
         <link rel="shortcut icon" type="image/x-icon" href={FavIcon} />
         <link

@@ -7,7 +7,7 @@ import Heading from "reusecore/Heading";
 import Text from "reusecore/Text";
 import Image from "reusecore/Image";
 
-import UserMapImage from "assets/images/users-map.png";
+import UserMapImage from "assets/images/stonks.jpg";
 import UserMapWrapper from "./userMap.style";
 
 const UserMap = () => {
@@ -18,12 +18,7 @@ const UserMap = () => {
           <Row>
             <Col className="sm-12 md-10 offset-md-1">
               <SectionTitle className="text-center">
-                <Heading>More than 3 Bilion worldwide use</Heading>
-                <Text>
-                  Attention in when in just something bread not hundred well,
-                  muff value emerge on the known officers. A parameters phase
-                  orthographic the can differentiates.
-                </Text>
+                <Heading>There is only one way this token can go</Heading>
               </SectionTitle>
             </Col>
           </Row>
