@@ -5,7 +5,7 @@ const WalletSectionWrapper = styled.div`
   .section__particle{
     position: absolute;
     top: 3%;
-    left: -5%;
+    left: 5%;
     width: 100px;
   }
   .section__particle__right{
@@ -15,9 +15,12 @@ const WalletSectionWrapper = styled.div`
     width: 80px;
   }
   .wallet-left-content{
-    width:90%;
+    width:100%;
   }
   .wallet-left-content div .text{
+    text-align:center;
+  }
+  .counter-item {
     text-align:center;
   }
   .wallet-info {
