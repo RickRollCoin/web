@@ -11,7 +11,7 @@ const WalletSectionWrapper = styled.div`
   .section__particle__right{
     position: absolute;
     top: 20%;
-    right: -5%;
+    right: 1%;
     width: 80px;
   }
   .wallet-left-content{
