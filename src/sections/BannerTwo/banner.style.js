@@ -104,8 +104,8 @@ const BannerWrapper = styled.div`
         }
 
         img {
-          width: 65px;
-          margin-right: 15px;
+          width: 40px;
+          margin-right: 7px;
         }
       }
     }
