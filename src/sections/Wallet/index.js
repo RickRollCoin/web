@@ -24,23 +24,20 @@ const Wallet = () => {
           alt="cryptik"
         />
         <Row>
-          <Col className="lg-5 md-4 xs-12">
-            <Box className="wallet-image">
-              <Image src={walletImage} alt="cryptik wallet image" />
-            </Box>
-          </Col>
-          <Col className="lg-6 offset-lg-1 md-8 xs-12">
             <Box className="wallet-left-content">
               <SectionTitle>
                 <SectionBackground>
-                  <Heading> Crypto management wallet </Heading>
+                  <Heading> Rick roll coin will never </Heading>
                 </SectionBackground>
                 <Text>
-                  Attention in when in just something bread not hundred well,
-                  muff value emerge on the known officers. A parameters phase
-                  orthographic the can differentiates far catch he warned a they
-                  but country. Times, cache in and what but the that go
-                  facilitate far were house.
+                  Give you up <br />
+                  Let you down <br />
+                  Run around <br />
+                  Desert you <br />
+                  Make you cry <br />
+                  Say goodbye <br />
+                  Tell a lie <br />
+                  Hurt you <br />
                 </Text>
               </SectionTitle>
 
@@ -53,7 +50,7 @@ const Wallet = () => {
                 ))}
               </Box>
             </Box>
-          </Col>
+            <img src={SectionParticle} className="section__particle__right" alt="cryptik" />
         </Row>
       </Container>
     </WalletSectionWrapper>

@@ -8,9 +8,22 @@ const WalletSectionWrapper = styled.div`
     left: -5%;
     width: 100px;
   }
+  .section__particle__right{
+    position: absolute;
+    top: 20%;
+    right: -5%;
+    width: 80px;
+  }
+  .wallet-left-content{
+    width:90%;
+  }
+  .wallet-left-content div .text{
+    text-align:center;
+  }
   .wallet-info {
     display: flex;
     margin-top: 50px;
+    justify-content: center;
 
     .counter-item {
       padding: 0 24px;

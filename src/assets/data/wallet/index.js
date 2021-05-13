@@ -3,19 +3,19 @@ import { FaAward, FaStar, FaHeart, FaDownload } from "react-icons/fa";
 export default {
   wallet: [
     {
-      count: 200,
+      count: 400,
       suffixText: "M+",
-      body: "Users",
+      body: "People rick rolled",
     },
     {
-      count: 200,
+      count: 900,
+      suffixText: "M+",
+      body: "Views on youtube",
+    },
+    {
+      count: 14,
       suffixText: "+",
-      body: "Companies",
-    },
-    {
-      count: 120,
-      suffixText: "M+",
-      body: "Dollars",
+      body: "Years of history",
     },
   ],
 };
