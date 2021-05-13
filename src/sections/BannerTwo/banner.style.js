@@ -100,10 +100,11 @@ const BannerWrapper = styled.div`
 
         .text {
           margin: 0;
+          text-align:center;
         }
 
         img {
-          width: 25px;
+          width: 65px;
           margin-right: 15px;
         }
       }

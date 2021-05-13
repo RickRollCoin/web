@@ -18,9 +18,9 @@ import particleBottomRight from "assets/images/particles/banner/particle-bottom-
 
 import {FaGithub} from 'react-icons/fa'
 
-import keyIcon from 'assets/images/banners/banner-two/cryptik-banner-key-icon.svg';
-import watchIcon from 'assets/images/banners/banner-two/cryptik-banner-watch-icon.svg';
-import heartIcon from 'assets/images/banners/banner-two/cryptik-banner-heart-icon.svg';
+import apeIcon from 'assets/images/banners/banner-two/ape.png';
+import rocketIcon from 'assets/images/banners/banner-two/moon.png';
+import diamondHandsIcon from 'assets/images/banners/banner-two/diamon_hands.png';
 
 import BannerWrapper from "./banner.style";
 
@@ -240,32 +240,33 @@ const BannerTwo = () => {
             <Box className="banner-content"> 
               <Heading>
                 Access the <br/>
-                power of blockchain
+                power of blockchain <nr/>
+                with a meme!
               </Heading>
               <Text as="span" className="description">
-                The highly the not having with lively. Our up with ran go her it
-                gloomy the back, though however projected not for six with then,
-                trusted as concepts belt.
+                The power of internet is limitless.
+                The power of memes is limitless.
+                We just have to remember 3 things.
               </Text>
 
               <Box className="coin-info">
                 <Box>
-                  <Image src={keyIcon} alt="crypto banner icon" />
-                  <Text>Access</Text>
+                  <Image src={apeIcon} alt="crypto banner icon" />
+                  <Text>Apes together strong</Text>
                 </Box>
                 <Box>
-                  <Image src={watchIcon} alt="crypto banner icon" />
-                  <Text>Speed</Text>
+                  <Image src={rocketIcon} alt="crypto banner icon" />
+                  <Text>Moon is the target</Text>
                 </Box>
                 <Box>
-                  <Image src={heartIcon} alt="crypto banner icon" />
-                  <Text>Certainty</Text>
+                  <Image src={diamondHandsIcon} alt="crypto banner icon" />
+                  <Text>Diamond hands</Text>
                 </Box>
               </Box>
 
               <Box className="banner-btn">
                 <Link href="#">
-                  <a className="btn btn-fill"> <FaGithub /> Download Crypto</a>
+                  <a className="btn btn-fill"> Buy RickRoll Token now!</a>
                 </Link> 
               </Box>
             </Box>

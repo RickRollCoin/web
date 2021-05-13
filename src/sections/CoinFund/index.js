@@ -65,9 +65,9 @@ const CoinFund = () => {
             </Box>
             <Box className="progressbar-wrapper">
               <Box className="progressbar">
-                <Text as="span">$5,097</Text>
+                <Text as="span">200 000 000</Text>
               </Box>
-              <Text as="span">$11,931</Text>
+              <Text as="span">10 000 000 000</Text>
             </Box>
 
             <Box className="payment-getway">
