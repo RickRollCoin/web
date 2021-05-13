@@ -10,6 +10,7 @@ const StatisticsSectionWrapper = styled.div`
 
     .statistics-image {
       text-align: center;
+      width:100%;
       .heading {
         font-size: 36px;
       }
