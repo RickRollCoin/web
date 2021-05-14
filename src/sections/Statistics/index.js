@@ -17,7 +17,7 @@ const Statistics = () => {
         <Container className="token-distribution">
           <Row>
               <Box className="statistics-image">
-                <Heading as="h2">Token Distribution in percentage</Heading>
+                <Heading as="h2">Token Distribution</Heading>
                 <div style={{height: 350}}><MyResponsivePieCanvas data={data} /></div>
               </Box>
           </Row>

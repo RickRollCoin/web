@@ -7,6 +7,7 @@ import Box from "reusecore/Box";
 import Heading from "reusecore/Heading";
 import Text from "reusecore/Text";
 import { SectionTitle, SectionBackground } from "reusecore/SectionTitle";
+import data from "assets/data/tokenInfo";
 
 import {
   FaBitcoin,
@@ -67,7 +68,7 @@ const CoinFund = () => {
               <Box className="progressbar">
                 <Text as="span">200 000 000</Text>
               </Box>
-              <Text as="span">10 000 000 000</Text>
+              <Text as="span">{data.maxTokenDisplay}</Text>
             </Box>
 
             <Box className="payment-getway">

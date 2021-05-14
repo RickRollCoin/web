@@ -8,7 +8,7 @@ export default {
   stack: [
     {
       name: "gihub",
-      url: "https://github.com/RickRollCoin",
+      url: "#",
       imageSrc: githubLogo,
     },
     {
