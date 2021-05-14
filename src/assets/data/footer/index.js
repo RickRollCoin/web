@@ -1,62 +1,25 @@
 import { 
-    FaTwitter,
-    FaTumblr,
-    FaGooglePlusG,
-    FaFacebookF,
-    FaLinkedinIn,
     FaSlack,
-    FaMediumM,
     FaTelegramPlane,
-    FaSnapchatGhost,
-    FaPinterestP,
-    FaYoutube,
+    FaGithub,
   } from "react-icons/fa";
 
   export default {
     links : [
         {
-            icon: <FaTwitter />,
-            url: "#"
-        },
-        {
-            icon: <FaTumblr />,
-            url: "#"
-        },
-        {
-            icon: <FaGooglePlusG />,
-            url: "#"
-        },
-        {
-            icon: <FaFacebookF />,
-            url: "#"
-        },
-        {
-            icon: <FaLinkedinIn />,
-            url: "#"
-        },
-        {
-            icon: <FaSlack />,
-            url: "#"
-        },
-        {
-            icon: <FaMediumM />,
-            url: "#"
-        },
-        {
+            key: 0,
             icon: <FaTelegramPlane />,
             url: "#"
         },
         {
-            icon: <FaSnapchatGhost />,
+            key: 1,
+            icon: <FaSlack />,
             url: "#"
         },
         {
-            icon: <FaPinterestP />,
-            url: "#"
-        },
-        {
-            icon: <FaYoutube />,
-            url: "#"
+            key: 2,
+            icon: <FaGithub />,
+            url: "https://github.com/RickRollCoin"
         }
     ]
   }

@@ -109,6 +109,7 @@ const FaqSectionWrapper = styled.div`
         padding-right: 0;
       }
     }
+    .faq-image{display: none;}
   }
   @media only screen and (max-width: 480px) {
     .title__wrapper{
@@ -116,8 +117,10 @@ const FaqSectionWrapper = styled.div`
         font-size: 30px;
       }
     }
+    .faq-image{display: none;}
   }
   @media only screen and (max-width: 375px) {
+    .faq-image{display: none;}
     .title__wrapper{
       .heading{
         font-size: 25px;

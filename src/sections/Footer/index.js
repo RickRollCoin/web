@@ -21,13 +21,14 @@ const Footer = () => {
         <Subscribe />
         <Container>
           <Row>
-            <Col className="lg-3 sm-6">
+            <Col className="lg-6 sm-6">
               <Box className="footer-widgets company-desc">
                 <Image src={cryptikFooterLogo} alt="cryptik footer logo" />
                 <Text>
                   If you have any questions fell free to ask.
                   Just remember it could take us some time to responde you.
                   Rick roll coin will never give you up.
+                  Drop us an email or contact by one of the other plaforms.
                 </Text>
 
                 <Box className="contact-info">
@@ -40,106 +41,26 @@ const Footer = () => {
                 </Box>
               </Box>
             </Col>
-            <Col className="lg-3 sm-6">
-              <Box className="footer-widgets">
-                <Heading as="h2">Service</Heading>
-                <List>
-                  <ListItem>
-                    <Link href="#">
-                      <a>Web Design</a>
-                    </Link>
+            <Col className="lg-6 sm-6">
+              <Box className="footer-widgets footer-social-links">
+                <Heading as="h2">Social links</Heading>
+                <List class="flex_list">
+                {data.links.map((item, index) => (
+                  <ListItem class="social_icon">
+                    <a target="_blank" href={item.url} key={index}> {item.icon}</a>
                   </ListItem>
-                  <ListItem>
-                    <Link href="#">
-                      <a>Web Development</a>
-                    </Link>
-                  </ListItem>
-                  <ListItem>
-                    <Link href="#">
-                      <a>UXUI Design</a>
-                    </Link>
-                  </ListItem>
-                  <ListItem>
-                    <Link href="#">
-                      <a>Graphics Design</a>
-                    </Link>
-                  </ListItem>
-                  <ListItem>
-                    <Link href="#">
-                      <a>Software development</a>
-                    </Link>
-                  </ListItem>
-                  <ListItem>
-                    <Link href="#">
-                      <a>Content</a>
-                    </Link>
-                  </ListItem>
+                ))}
                 </List>
-              </Box>
-            </Col>
-            <Col className="lg-3 sm-6">
-              <Box className="footer-widgets">
-                <Heading as="h2">About Us</Heading>
-                <List>
-                  <ListItem>
-                    <Link href="#">
-                      <a>About Us</a>
-                    </Link>
-                  </ListItem>
-                  <ListItem>
-                    <Link href="#">
-                      <a>Work Portfolio</a>
-                    </Link>
-                  </ListItem>
-                  <ListItem>
-                    <Link href="#">
-                      <a>Team</a>
-                    </Link>
-                  </ListItem>
-                  <ListItem>
-                    <Link href="#">
-                      <a>Plan & Pricing</a>
-                    </Link>
-                  </ListItem>
-                  <ListItem>
-                    <Link href="#">
-                      <a>Content</a>
-                    </Link>
-                  </ListItem>
-                  <ListItem>
-                    <Link href="#">
-                      <a>Company News</a>
-                    </Link>
-                  </ListItem>
-                </List>
-              </Box>
-            </Col>
-            <Col className="lg-3 sm-6">
-              <Box className="footer-widgets address">
-                <Heading as="h2">Our Address</Heading>
-                <Text>
-                  1370 Roosevelt Street, Little York City, New Jersey 08834
-                </Text>
               </Box>
             </Col>
           </Row>
           <Row>
             <Col className="xs-12">
-              <Box className="footer-social-links">
-                {data.links.map((item, index) => (
-                  <Link href={item.url} key={index}>
-                    <a> {item.icon} </a>
-                  </Link>
-                ))}
-              </Box>
-
               <Box className="copyright-text">
-                <Text>&copy; RickRollToken | All right rserved 2021</Text>
+                <Text>&copy; RickRollToken | All rights reserved 2021</Text>
                 <Text as="span">
                   Designed By{" "}
-                  <Link href="https://www.linkedin.com/in/kacper-w-a188b5115/">
-                    <a>Kacper Werema</a>
-                  </Link>
+                  <a target="_blank" href="https://www.linkedin.com/in/kacper-w-a188b5115/">Kacper Werema</a>
                 </Text>
               </Box>
             </Col>

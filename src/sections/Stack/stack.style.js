@@ -16,7 +16,7 @@ const StackSectionWrapper = styled.div`
           opacity: 0.7;
         }
         img {
-          width: auto;
+          width: 80px;
         }
       }
     }
@@ -24,14 +24,14 @@ const StackSectionWrapper = styled.div`
 
   @media only screen and (max-width: 568px) {
     .box.language-image a img{
-      width: 85%;
+      width: 60px;
     } 
   }
 
   @media only screen and (max-width: 480px) {
      padding: 20px 0;
     .box.language-image a img{
-      width: 70%;
+      width: 50px;
     } 
     .heading{
       font-size: 33px;

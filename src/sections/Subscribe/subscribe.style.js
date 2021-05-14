@@ -102,11 +102,33 @@ const SubscribeWrapper = styled.div`
       font-size: 30px;
       line-height: 40px;
     }
+    
+    .form-box {
+      text-align: center;
+      margin-top: 35px;
+      button {
+        position: absolute;
+        right: 18%;
+        top: 65px;
+        margin: 30px auto 0 auto;
+      }
+    }
   }
   @media only screen and (max-width: 375px) {
     .heading {
       font-size: 25px;
       line-height: 35px;
+    }
+    
+    .form-box {
+      text-align: center;
+      margin-top: 35px;
+      button {
+        position: absolute;
+        right: 18%;
+        top: 65px;
+        margin: 30px auto 0 auto;
+      }
     }
   }
 `;

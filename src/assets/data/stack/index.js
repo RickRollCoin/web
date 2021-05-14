@@ -1,8 +1,8 @@
 import githubLogo from "assets/images/languages/github.png";
 import javascriptLogo from "assets/images/languages/javascript.png";
-import pythonLogo from "assets/images/languages/python.png";
+import solidityLogo from "assets/images/languages/solidity.png";
 import reactLogo from "assets/images/languages/react.png";
-import rubyLogo from "assets/images/languages/ruby.png";
+import azureLogo from "assets/images/languages/azure-logo.png";
 
 export default {
   stack: [
@@ -17,9 +17,9 @@ export default {
       imageSrc: javascriptLogo,
     },
     {
-      name: "python",
+      name: "solidity",
       url: "#",
-      imageSrc: pythonLogo,
+      imageSrc: solidityLogo,
     },
     {
       name: "reactjs",
@@ -27,9 +27,9 @@ export default {
       imageSrc: reactLogo,
     },
     {
-      name: "ruby",
+      name: "azure",
       url: "#",
-      imageSrc: rubyLogo,
+      imageSrc: azureLogo,
     },
   ],
 };

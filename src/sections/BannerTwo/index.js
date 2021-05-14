@@ -240,7 +240,7 @@ const BannerTwo = () => {
             <Box className="banner-content"> 
               <Heading>
                 Access the <br/>
-                power of blockchain <nr/>
+                power of blockchain <br/>
                 with a meme!
               </Heading>
               <Text as="span" className="description">

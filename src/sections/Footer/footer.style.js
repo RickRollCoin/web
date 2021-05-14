@@ -13,8 +13,15 @@ const FooterWrapper = styled.div`
       color: #fff;
     }
   }
-
-  
+  .footer-social-links{
+  .list{
+    display: flex;
+    list-style: none;
+    li{
+      padding: 0 10px;
+    }
+  }   
+}
 
   .footer-widgets { 
     margin-bottom: 60px;

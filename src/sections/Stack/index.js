@@ -21,8 +21,8 @@ const Stack = () => {
               <SectionTitle>
                 <Heading> Technology we use</Heading>
                 <Text>
-                  Attention in when in just something bread not hundred well,
-                  muff value emerge on the known officers.
+                  The project is beeing developed in most recent technology stack. <br/>
+                  It is also an Open Source project!
                 </Text>
               </SectionTitle>
             </Col>
