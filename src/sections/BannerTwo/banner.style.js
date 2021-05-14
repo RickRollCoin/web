@@ -89,7 +89,6 @@ const BannerWrapper = styled.div`
         }
       }
     }
-
     .coin-info {
       display: flex;
       align-items: center;
@@ -107,6 +106,12 @@ const BannerWrapper = styled.div`
           width: 40px;
           margin-right: 7px;
         }
+      }
+    }
+
+    @media only screen and (max-width: 600px) {
+      .coin-info {
+          div { margin: 0px; }
       }
     }
 

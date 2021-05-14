@@ -6,10 +6,45 @@ import token from "assets/data/tokenInfo";
 // website examples showcase many properties,
 // you'll often use just a few of them.
 
-export const MyResponsivePieCanvas = ({ data /* see data tab */ }) => (
+function getLegends(width){
+    return width < 400 
+    ?  [
+        {
+            anchor: 'right',
+            direction: 'column',
+            justify: false,
+            translateY: 10,
+            itemsSpacing: 14,
+            itemWidth: 75,
+            itemHeight: 28,
+            itemTextColor: '#999',
+            itemDirection: 'top-to-bottom',
+            itemOpacity: 1,
+            symbolSize: 20,
+            symbolShape: 'diamond'
+        }] 
+    : 
+        [
+            {
+                anchor: 'bottom',
+                direction: 'row',
+                justify: false,
+                translateY: 25,
+                itemsSpacing: 5,
+                itemWidth: 75,
+                itemHeight: 14,
+                itemTextColor: '#999',
+                itemDirection: 'left-to-right',
+                itemOpacity: 1,
+                symbolSize: 18,
+                symbolShape: 'diamond'
+            }
+        ]};
+
+export const MyResponsivePieCanvas = ({ data, width }) => (
     <ResponsivePieCanvas
         data={data}
-        margin={{ top: 10, bottom: 25 }}
+        margin={{ top: 10, bottom: width < 400 ? 100 : 30 }}
         innerRadius={0.4}
         padAngle={0.7}
         cornerRadius={3}
@@ -36,21 +71,6 @@ export const MyResponsivePieCanvas = ({ data /* see data tab */ }) => (
                 stagger: true
             }
         ]}
-        legends={[
-            {
-                anchor: 'bottom',
-                direction: 'row',
-                justify: false,
-                translateY: 25,
-                itemsSpacing: 5,
-                itemWidth: 80,
-                itemHeight: 14,
-                itemTextColor: '#999',
-                itemDirection: 'left-to-right',
-                itemOpacity: 1,
-                symbolSize: 14,
-                symbolShape: 'circle'
-            }
-        ]}
+        legends={getLegends(width)}
     />
 )
