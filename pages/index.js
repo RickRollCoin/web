@@ -32,15 +32,15 @@ const Home = () => {
       <GlobalStyle />
       <Navigation />
       <BannerTwo />
-      <Service />
+      {/* <Service />
       <CoinFund />
       <About />
-      <Awards />
+      <Awards /> */}
       <Wallet />
-      <Statistics />
       <UserMap />
-      <Faq />
       <Stack />
+      <Statistics />
+      <Faq />
       <Footer />
     </ThemeProvider>
   );
